@@ -1,4 +1,4 @@
-# Python Script for m3u-Playlist-Creation
+# Python Script for m3u-Playlist-Creation in Linux and Windows
 
 ## Background
 
@@ -69,4 +69,4 @@ py m3u.py -n 'my-playlist.m3u' -s 'C:/path/to/my/music/Rock' -d True -f '.mp3 .f
 
 * The playlist file is always created in the current working directory (that's where the script is run from).
 * `-d` if set to True can result in unwanted behaviour if files from different folders have the same names but are not actually the same song. I recommend leaving this off, unless you know you got a lot of actual duplicates and the names are descriptive enough (e.g.: Title - Genre - Interpret - ... .mp3) to render false positives unlikely.
-
+* So far, this script has only been tested in Linux and Windows, but it could work on other operating systems as well.
