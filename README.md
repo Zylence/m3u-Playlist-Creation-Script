@@ -1,4 +1,4 @@
-# Python Script for m3u-Playlist-Creation in Linux and Windows
+# Python Script for m3u-Playlist-Creation
 
 ## Background
 
@@ -19,7 +19,7 @@ This script can be used to create music/video playlists on both **Linux** and **
 |`-m`|`'w'`|The mode python writes the playlist file in, the default, 'w' will overwrite existing files, use 'a' to append them instead.|
 |`-c`|`'utf-8'`|Codec used by python when writing a file. Refer to the [Standard Encodings](https://docs.python.org/3/library/codecs.html#standard-encodings) section of the official docs for reference if you run into problems.
 |`-s`|`os.getcwd()`|This searches the current working directory . I recommend setting an absolute path to your music directory or subfolder instead.|
-|`-e`|`''`|Specifies the subdirectories that are not included in the playlist. (refer to the [Examples](Link) for usage information)|
+|`-e`|`''`|Specifies the subdirectories that are not included in the playlist. (refer to the [Examples](https://github.com/Zylence/m3u-Playlist-Creation-Script/blob/main/README.md#examples) for usage information)|
 |`-d`|`False`|If set to True this script will prevent duplicate entries in your playlist by only adding the first path found. (useful if the same tracks reside in multiple subfolders for some reason)|
 |`-a`|`True`|If set to False this will result in your playlist containing paths relative to your current working directory. I advise keeping the default.|
 |`-f`|`'.mp3 .flac .wav .aac'`|Those are the formats the script will write into the playlist.
