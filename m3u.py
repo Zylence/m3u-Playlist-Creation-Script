@@ -39,6 +39,7 @@ def createPaths(files):
             # keep all paths
             for path in paths:
                 resPaths.append(createPathsHelper(filename, path))
+    print(f"{len(resPaths)} files found in {startDirectory}.")
     return resPaths
 
 
