@@ -2,7 +2,7 @@
 
 ## Background
 
-Recently I needed to write a script to create some m3u-playlists for my private [Liquidsoap](https://github.com/savonet/liquidsoap) radio stream (i highly recommend checking their project out, its amazing) and I figured I may as well upload a slightly polished version of it.
+Recently I needed to write a script to create some m3u-playlists for my private [Liquidsoap](https://github.com/savonet/liquidsoap) radio stream (i highly recommend checking their project out, it's amazing) and I figured I may as well upload a slightly polished version of it.
 
 ## Features
 This script can be used to create music/video playlists on both **Linux** and **Windows** with ease. It parses all subdirectories of a given directory (unless exclusions are set) and filters only for file types specified by the user. It offers additional options to remove duplicates and choose between absolute and relative paths.
