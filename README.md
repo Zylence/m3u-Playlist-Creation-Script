@@ -5,7 +5,7 @@
 Recently I needed to write a script to create some m3u-playlists for my private [Liquidsoap](https://github.com/savonet/liquidsoap) radio stream (i highly recommend checking their project out, it's amazing) and I figured I may as well upload a slightly polished version of it.
 
 ## Features
-This script can be used to create music/video playlists on both **Linux** and **Windows** with ease. It parses all subdirectories of a given directory (unless exclusions are set) and filters only for file types specified by the user. It offers additional options to remove duplicates and choose between absolute and relative paths.
+This script can be used to create music/video playlists on **Linux**, **macOS** and **Windows** with ease. It parses all subdirectories of a given directory (unless exclusions are set) and filters only for file types specified by the user. It offers additional options to remove duplicates and choose between absolute and relative paths.
 
 
 ## Usage
@@ -26,7 +26,7 @@ This script can be used to create music/video playlists on both **Linux** and **
 
 ### Examples
 
-#### Linux
+#### Linux and MacOS
 ----------------
 
 ```console
@@ -69,4 +69,4 @@ py m3u.py -n 'my-playlist.m3u' -s 'C:/path/to/my/music/Rock' -d True -f '.mp3 .f
 
 * The playlist file is always created in the current working directory (that's where the script is run from).
 * `-d` if set to True can result in unwanted behaviour if files from different folders have the same names but are not actually the same song. I recommend leaving this off, unless you know you got a lot of actual duplicates and the names are descriptive enough (e.g.: Title - Genre - Interpret - ... .mp3) to render false positives unlikely.
-* So far, this script has only been tested in Linux and Windows, but it could work on other operating systems as well.
+* So far, this script has only been tested in Linux, MacOS and Windows, but it could work on other Unix(-like) operating systems as well.
