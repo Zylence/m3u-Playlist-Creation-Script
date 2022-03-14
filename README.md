@@ -1,4 +1,4 @@
-# Python Script for m3u-Playlist-Creation in Linux and Windows
+# Python Script for m3u-Playlist-Creation in Linux, macOS and Windows
 
 ## Background
 
